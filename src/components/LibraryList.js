@@ -29,7 +29,7 @@ class LibraryList extends Component {
     }
 }
 
-const mapStateToProps = state => {
+const mapStateToProps = state=> {
     return {libraries: state.libraries}; //what ever object we return from mapStateToProps will show up as props in component
 };
 
